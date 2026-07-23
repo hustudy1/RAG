@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# uv / venv
+.venv/
+
+# Local Claude Code settings (personal, not shared)
+.claude/settings.local.json
+
+# OS
+.DS_Store
+
+# Leftover .git from the original llm_wiki clone, renamed instead of deleted
+# (history is preserved at github.com/hustudy1/llm_wiki) -- safe to delete manually
+llm_wiki/.git.bak/
