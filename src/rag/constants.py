@@ -42,7 +42,7 @@ DEFAULT_CHUNK_OVERLAP = 150  # characters
 
 DEFAULT_EMBEDDING_MODEL = "all-MiniLM-L6-v2"
 
-DEFAULT_ANSWER_MODEL = "claude-opus-4-8"
+DEFAULT_ANSWER_MODEL = "claude-opus-5-5"
 
 # Name of the single Chroma collection stored per persist_dir.
 CHROMA_COLLECTION_NAME = "chunks"
